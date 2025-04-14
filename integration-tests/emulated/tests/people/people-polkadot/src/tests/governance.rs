@@ -16,7 +16,7 @@
 use crate::*;
 use emulated_integration_tests_common::accounts::{ALICE, BOB};
 
-use frame_support::{sp_runtime::traits::Dispatchable, traits::ProcessMessageError};
+use frame_support::sp_runtime::traits::Dispatchable;
 use people_polkadot_runtime::people::IdentityInfo;
 use polkadot_runtime::governance::pallet_custom_origins::Origin::GeneralAdmin as GeneralAdminOrigin;
 
